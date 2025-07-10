@@ -21,7 +21,7 @@ const App = () => {
     }
   }, [isXNext, board, winner]);
 
-  const handleClick = (index) => {
+  const handleClick = (index) => {to the moon)
     if (board[index] || winner || !isXNext) return;
 
     const newBoard = [...board];
