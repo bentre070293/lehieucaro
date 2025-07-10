@@ -85,3 +85,21 @@ function calculateWinner(board) {
 }
 
 export default App;
+
+
+------
+
+hardhat-monad/
+├── contracts/             # Smart contract source files
+│   └── Lock.sol           # Sample time-locked wallet contract
+├── ignition/              # Hardhat Ignition deployment modules
+│   └── modules/
+│       └── Lock.ts        # Deployment configuration for Lock contract
+├── test/                  # Test files
+│   └── Lock.ts            # Tests for the Lock contract
+├── .env.example           # Example environment variables file
+├── hardhat.config.ts      # Hardhat configuration
+├── package.json           # Project dependencies
+└── tsconfig.json          # TypeScript configuration
+
+
